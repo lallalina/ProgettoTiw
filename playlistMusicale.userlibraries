@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Java EE 6-Java EE 6">
+    <archive path="C:/Users/franc/IdeaProjects/playlistMusicale/lib/javax.servlet.jsp.jstl.jar" />
+    <archive path="C:/Users/franc/IdeaProjects/playlistMusicale/lib/javax.jms.jar" />
+    <archive path="C:/Users/franc/IdeaProjects/playlistMusicale/lib/javax.transaction.jar" />
+    <archive path="C:/Users/franc/IdeaProjects/playlistMusicale/lib/javax.annotation.jar" />
+    <archive path="C:/Users/franc/IdeaProjects/playlistMusicale/lib/javax.resource.jar" />
+    <archive path="C:/Users/franc/IdeaProjects/playlistMusicale/lib/javax.ejb.jar" />
+    <archive path="C:/Users/franc/IdeaProjects/playlistMusicale/lib/javax.servlet.jar" />
+    <archive path="C:/Users/franc/IdeaProjects/playlistMusicale/lib/javax.servlet.jsp.jar" />
+    <archive path="C:/Users/franc/IdeaProjects/playlistMusicale/lib/javax.persistence.jar" />
+  </library>
+</eclipse-userlibraries>
+
