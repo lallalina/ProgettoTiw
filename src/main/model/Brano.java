@@ -10,6 +10,7 @@ public class Brano {
     private String titoloAlbum;
     private Integer idGenere;
     private Date dataPubblicazione;
+    private String linkCanzone;
 
     public Brano() {
     }
@@ -78,4 +79,13 @@ public class Brano {
     public void setDataPubblicazione(Date dataPubblicazione) {
         this.dataPubblicazione = dataPubblicazione;
     }
+    
+    public String getLinkCanzone(){
+        return linkCanzone;
+    }
+    
+    public void setLinkCanzone(String linkCanzone){
+        this.linkCanzone = linkCanzone;
+    }
+    
 }
