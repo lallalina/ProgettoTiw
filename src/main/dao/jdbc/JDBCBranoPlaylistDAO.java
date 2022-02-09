@@ -18,6 +18,7 @@ public class JDBCBranoPlaylistDAO implements BranoPlaylistDAO {
     public static final String BRANO_PLAYLIST_ID = "id";
     public static final String BRANO_PLAYLIST_TITOLO = "id_brano";
     public static final String BRANO_PLAYLIST_IMMAGINE = "id_playlist";
+    public static final String BRANO_LINK_CANZONE = "link_canzone";
 
 
     private static JDBCBranoPlaylistDAO instance;
@@ -53,7 +54,8 @@ public class JDBCBranoPlaylistDAO implements BranoPlaylistDAO {
                         rs.getString(rs.findColumn(BRANO_IMMAGINE)),
                         rs.getString(rs.findColumn(BRANO_TITOLO_ALBUM)),
                         Integer.parseInt(rs.getString(rs.findColumn(BRANO_ID_GENERE))),
-                        rs.getDate(rs.findColumn(BRANO_DATA_PUBBLICAZIONE))
+                        rs.getDate(rs.findColumn(BRANO_DATA_PUBBLICAZIONE),
+                        rs.getString(rs.findColumn(BRANO_LINK_CANZONE)))
                 );
                 brani.add(temp);
             }
