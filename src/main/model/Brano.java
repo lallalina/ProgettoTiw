@@ -15,21 +15,23 @@ public class Brano {
     public Brano() {
     }
 
-    public Brano(String titolo, String immagine, String titoloAlbum, Integer idGenere, Date dataPubblicazione) {
+    public Brano(String titolo, String immagine, String titoloAlbum, Integer idGenere, Date dataPubblicazione, String linkCanzone) {
         this.titolo = titolo;
         this.immagine = immagine;
         this.titoloAlbum = titoloAlbum;
         this.idGenere = idGenere;
         this.dataPubblicazione = dataPubblicazione;
+        this.linkCanzone = linkCanzone;
     }
 
-    public Brano(Integer id, String titolo, String immagine, String titoloAlbum, Integer idGenere, Date dataPubblicazione) {
+    public Brano(Integer id, String titolo, String immagine, String titoloAlbum, Integer idGenere, Date dataPubblicazione, String linkCanzone) {
         this.id = id;
         this.titolo = titolo;
         this.immagine = immagine;
         this.titoloAlbum = titoloAlbum;
         this.idGenere = idGenere;
         this.dataPubblicazione = dataPubblicazione;
+        this.linkCanzone = linkCanzone;
     }
 
     public Integer getId() {
